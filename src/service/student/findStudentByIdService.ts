@@ -1,6 +1,6 @@
 import { Request } from 'express';
 
-import { findStudentByIdModel } from '../../model/student/findStudentsModel.ts';
+import { findStudentByIdModel } from '../../model/student/findStudentByIdModel.ts';
 import { IService } from '../../interfaces/IService.ts';
 
 export async function findStudentByIdService(req: Request): Promise<IService> {
