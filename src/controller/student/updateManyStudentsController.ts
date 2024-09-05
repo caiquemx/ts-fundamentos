@@ -1,13 +1,13 @@
 import { NextFunction, Request, Response } from 'express';
-import { updateStudentsService } from '../../service/student/updateStudentsService';
+import { updateManyStudentsService } from '../../service/student/updateManyStudentsService';
 
-export async function updateStudentsController(
+export async function updateManyStudentsController(
   req: Request,
   res: Response,
   next: NextFunction
 ) {
   try {
-    const { message, statusCode, data } = await updateStudentsService(req, res);
+    const { message, data, statusCode } = await updateManyStudentsService(req);
     res.status(statusCode).json({
       message,
       data,
