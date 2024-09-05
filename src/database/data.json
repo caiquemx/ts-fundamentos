@@ -1,0 +1,188 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "age": 21,
+      "email": "alice.johnson@example.com",
+      "course": "Computer Science",
+      "enrollmentDate": "2023-08-20"
+    },
+    {
+      "id": 2,
+      "name": "Bob Smith",
+      "age": 22,
+      "email": "bob.smith@example.com",
+      "course": "Mechanical Engineering",
+      "enrollmentDate": "2022-09-15"
+    },
+    {
+      "id": 3,
+      "name": "Catherine Lee",
+      "age": 20,
+      "email": "catherine.lee@example.com",
+      "course": "Electrical Engineering",
+      "enrollmentDate": "2023-01-12"
+    },
+    {
+      "id": 4,
+      "name": "David Brown",
+      "age": 23,
+      "email": "david.brown@example.com",
+      "course": "Business Administration",
+      "enrollmentDate": "2021-06-30"
+    },
+    {
+      "id": 5,
+      "name": "Eva Davis",
+      "age": 21,
+      "email": "eva.davis@example.com",
+      "course": "Civil Engineering",
+      "enrollmentDate": "2023-03-10"
+    },
+    {
+      "id": 6,
+      "name": "Frank Wilson",
+      "age": 24,
+      "email": "frank.wilson@example.com",
+      "course": "Computer Science",
+      "enrollmentDate": "2020-11-05"
+    },
+    {
+      "id": 7,
+      "name": "Grace Miller",
+      "age": 22,
+      "email": "grace.miller@example.com",
+      "course": "Architecture",
+      "enrollmentDate": "2022-04-25"
+    },
+    {
+      "id": 8,
+      "name": "Henry Clark",
+      "age": 23,
+      "email": "henry.clark@example.com",
+      "course": "Mechanical Engineering",
+      "enrollmentDate": "2021-09-17"
+    },
+    {
+      "id": 9,
+      "name": "Isabella White",
+      "age": 20,
+      "email": "isabella.white@example.com",
+      "course": "Computer Science",
+      "enrollmentDate": "2023-07-11"
+    },
+    {
+      "id": 10,
+      "name": "Jack Martin",
+      "age": 21,
+      "email": "jack.martin@example.com",
+      "course": "Electrical Engineering",
+      "enrollmentDate": "2022-02-20"
+    },
+    {
+      "id": 11,
+      "name": "Katherine Moore",
+      "age": 22,
+      "email": "katherine.moore@example.com",
+      "course": "Civil Engineering",
+      "enrollmentDate": "2021-08-01"
+    },
+    {
+      "id": 12,
+      "name": "Liam Taylor",
+      "age": 23,
+      "email": "liam.taylor@example.com",
+      "course": "Business Administration",
+      "enrollmentDate": "2020-12-10"
+    }
+  ],
+  "teachers": [
+    {
+      "id": 1,
+      "name": "Dr. Emily Roberts",
+      "age": 45,
+      "email": "emily.roberts@university.com",
+      "department": "Computer Science",
+      "coursesTaught": ["Introduction to Programming", "Data Structures"]
+    },
+    {
+      "id": 2,
+      "name": "Dr. Michael Turner",
+      "age": 50,
+      "email": "michael.turner@university.com",
+      "department": "Mechanical Engineering",
+      "coursesTaught": ["Thermodynamics", "Fluid Mechanics"]
+    },
+    {
+      "id": 3,
+      "name": "Dr. Sophia Harris",
+      "age": 38,
+      "email": "sophia.harris@university.com",
+      "department": "Electrical Engineering",
+      "coursesTaught": ["Circuit Analysis", "Electromagnetics"]
+    },
+    {
+      "id": 4,
+      "name": "Dr. James Wilson",
+      "age": 42,
+      "email": "james.wilson@university.com",
+      "department": "Business Administration",
+      "coursesTaught": ["Marketing Management", "Organizational Behavior"]
+    },
+    {
+      "id": 5,
+      "name": "Dr. Olivia Brown",
+      "age": 47,
+      "email": "olivia.brown@university.com",
+      "department": "Civil Engineering",
+      "coursesTaught": ["Structural Analysis", "Geotechnical Engineering"]
+    },
+    {
+      "id": 6,
+      "name": "Dr. William Johnson",
+      "age": 40,
+      "email": "william.johnson@university.com",
+      "department": "Architecture",
+      "coursesTaught": ["Architectural Design", "Urban Planning"]
+    }
+  ],
+  "departments": [
+    {
+      "id": 1,
+      "name": "Computer Science",
+      "head": "Dr. Emily Roberts",
+      "building": "Science Building A"
+    },
+    {
+      "id": 2,
+      "name": "Mechanical Engineering",
+      "head": "Dr. Michael Turner",
+      "building": "Engineering Complex"
+    },
+    {
+      "id": 3,
+      "name": "Electrical Engineering",
+      "head": "Dr. Sophia Harris",
+      "building": "Science Building B"
+    },
+    {
+      "id": 4,
+      "name": "Business Administration",
+      "head": "Dr. James Wilson",
+      "building": "Business Center"
+    },
+    {
+      "id": 5,
+      "name": "Civil Engineering",
+      "head": "Dr. Olivia Brown",
+      "building": "Engineering Complex"
+    },
+    {
+      "id": 6,
+      "name": "Architecture",
+      "head": "Dr. William Johnson",
+      "building": "Design Studio"
+    }
+  ]
+}
