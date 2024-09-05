@@ -3,10 +3,14 @@ import { IStudent } from '../../interfaces/student/IStudent';
 
 const prisma = new PrismaClient();
 
-export async function findStudentByIdModel(id: number): Promise<IStudent | null> {
+export async function findStudentByIdModel(
+  id: number,
+  isActive: boolean = true
+): Promise<IStudent | null> {
   const user = await prisma.student.findUnique({
     where: {
       id,
+      isActive,
     },
     select: {
       id: true,
@@ -20,11 +24,15 @@ export async function findStudentByIdModel(id: number): Promise<IStudent | null>
       },
     },
   });
+
   return user;
 }
 
-export async function findStudentsModel(): Promise<IStudent[]> {
+export async function findStudentsModel(isActive: boolean = true): Promise<IStudent[]> {
   const users = await prisma.student.findMany({
+    where: {
+      isActive,
+    },
     select: {
       id: true,
       name: true,

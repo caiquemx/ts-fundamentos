@@ -5,5 +5,6 @@ export interface IStudent {
   name: string;
   age: number;
   email: string;
+  isActive?: boolean;
   courses: studentCourses[];
 }
