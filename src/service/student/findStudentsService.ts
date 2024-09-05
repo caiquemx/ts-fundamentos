@@ -1,4 +1,4 @@
-import { findStudentsModel } from '../../model/student/findStudentByIdModel';
+import { findStudentsModel } from '../../model/student/findStudentsModel';
 import { IService } from '../../interfaces/IService';
 
 export async function findStudentsService(): Promise<IService> {
