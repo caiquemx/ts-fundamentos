@@ -1,5 +1,5 @@
 import { NextFunction, Request, Response } from 'express';
-import { findStudentsService } from '../../service/student/finsStudentsService';
+import { findStudentsService } from '../../service/student/findStudentsService';
 
 export async function findStudentsController(
   _req: Request,
