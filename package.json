@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "prisma": {
-    "schema": "db/schema.prisma"
+    "schema": "./src/database/prisma/schema.prisma"
   },
   "scripts": {
     "build": "npx tsc",

@@ -1,4 +1,4 @@
-import { Response, Request } from 'express';
+import { Request, Response } from 'express';
 import { IErrorHandler } from '../interfaces/IErrorHandler';
 
 export async function errorHandler(err: IErrorHandler, _req: Request, res: Response) {
