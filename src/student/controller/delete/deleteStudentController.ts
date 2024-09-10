@@ -1,13 +1,13 @@
 import { NextFunction, Request, Response } from 'express';
-import { updateStudentsService } from '../../service/student/updateStudentService';
+import { deleteStudentService } from '../../service/delete/deleteStudentService';
 
-export async function updateStudentController(
+export async function deleteStudentController(
   req: Request,
   res: Response,
   next: NextFunction
 ) {
   try {
-    const { message, statusCode, data } = await updateStudentsService(req, res);
+    const { message, data, statusCode } = await deleteStudentService(req);
     res.status(statusCode).json({
       message,
       data,

@@ -1,7 +1,12 @@
-import { Request, Response } from 'express';
+import { NextFunction, Request, Response } from 'express';
 import { IErrorHandler } from '../interfaces/IErrorHandler';
 
-export async function errorHandler(err: IErrorHandler, _req: Request, res: Response) {
+export async function errorHandler(
+  err: IErrorHandler,
+  _req: Request,
+  res: Response,
+  next: NextFunction
+) {
   const statusCode = err.statusCode || 500;
 
   console.log(err.message);

@@ -1,6 +1,6 @@
-import { updateStudentsModel } from '../../model/student/updateStudentModel';
-import { IService } from '../../interfaces/IService';
-import { IPayloadStudent } from '../../interfaces/student/IPayloadStudent';
+import { updateStudentsModel } from '../../model/update/updateStudentModel';
+import { IService } from '../../../interfaces/IService';
+import { IPayloadStudent } from '../../interfaces/IPayloadStudent';
 import { Request, Response } from 'express';
 
 export async function updateStudentsService(

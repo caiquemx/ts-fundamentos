@@ -1,6 +1,5 @@
 import { PrismaClient } from '@prisma/client';
-import { IPayloadStudent } from '../../interfaces/student/IPayloadStudent';
-import { IUpdateManyStudentsPayload } from '../../interfaces/student/IUpdateManyStudentsPayload';
+import { IUpdateManyStudentsPayload } from '../../interfaces/IUpdateManyStudentsPayload';
 
 const prisma = new PrismaClient();
 

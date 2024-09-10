@@ -1,5 +1,5 @@
 import { NextFunction, Request, Response } from 'express';
-import { updateManyStudentsService } from '../../service/student/updateManyStudentsService';
+import { updateManyStudentsService } from '../../service/update/updateManyStudentsService';
 
 export async function updateManyStudentsController(
   req: Request,

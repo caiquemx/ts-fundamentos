@@ -1,7 +1,7 @@
 import { Request } from 'express';
 
-import { findStudentByIdModel } from '../../model/student/findStudentByIdModel.ts';
-import { IService } from '../../interfaces/IService.ts';
+import { findStudentByIdModel } from '../../model/read/findStudentByIdModel.ts';
+import { IService } from '../../../interfaces/IService.ts';
 
 export async function findStudentByIdService(req: Request): Promise<IService> {
   try {
