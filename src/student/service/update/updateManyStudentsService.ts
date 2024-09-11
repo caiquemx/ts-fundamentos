@@ -1,7 +1,7 @@
 import { Request } from 'express';
-import { IService } from '../../interfaces/IService';
-import { updateManyStudentsModel } from '../../model/student/updateManyStudentsModel';
-import { IUpdateManyStudentsPayload } from '../../interfaces/student/IUpdateManyStudentsPayload';
+import { IService } from '../../../interfaces/IService';
+import { updateManyStudentsModel } from '../../model/update/updateManyStudentsModel';
+import { IUpdateManyStudentsPayload } from '../../interfaces/IUpdateManyStudentsPayload';
 
 export async function updateManyStudentsService(req: Request): Promise<IService> {
   try {

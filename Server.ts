@@ -16,5 +16,5 @@ app.use(errorHandler);
 const PORT = process.env.SERVER_PORT || 3000;
 
 app.listen(PORT, () => {
-  console.log(`App listening on https://localhost:${PORT}`);
+  console.log(`App listening on http://localhost:${PORT}`);
 });
