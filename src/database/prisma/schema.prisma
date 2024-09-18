@@ -12,7 +12,7 @@ model Student {
   name           String
   age            Int
   email          String   @unique
-  enrollmentDate DateTime
+  enrollmentDate DateTime @default(now())
   courses        StudentCourses[]
   createdAt      DateTime @default(now())
   updatedAt      DateTime @updatedAt
