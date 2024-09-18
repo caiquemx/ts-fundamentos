@@ -1,9 +1,9 @@
-import { studentCourses } from '../../types/student/studentCoursesType';
+import { studentCourses } from '../types/studentCoursesType';
 
 export interface IStudent {
-  id: number;
+  id?: number;
   name: string;
   age: number;
   email: string;
-  courses: studentCourses[];
+  courses?: number[];
 }
