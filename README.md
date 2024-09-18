@@ -25,7 +25,7 @@ Este projeto é uma aplicação back-end desenvolvida em TypeScript, utilizando 
 
 1. Clone o repositório:
   ```bash
-  git clone [https://github.com/seu-usuario/ts_fundamentos.git](https://github.com/seu-usuario/ts_fundamentos.git)
+  git clone (https://github.com/seu-usuario/ts_fundamentos.git)
   ```
    
 2. Instale as dependências:
