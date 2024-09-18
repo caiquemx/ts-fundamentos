@@ -1,0 +1,2 @@
+-- AlterTable
+ALTER TABLE `Student` MODIFY `enrollmentDate` DATETIME(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3);
