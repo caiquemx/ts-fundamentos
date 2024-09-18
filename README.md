@@ -1,6 +1,6 @@
 # TS Fundamentos
 
-Este projeto é uma aplicação back-end desenvolvida em TypeScript, utilizando o Prisma para gerenciar a base de dados com MySQL, Express.js para rotas e a biblioteca Nodemon para facilitar o desenvolvimento. O projeto segue boas práticas de tipagem e modelagem de dados.
+Este projeto é um CRUD básico na model student, desenvolvido em TypeScript, utilizando o Prisma para gerenciar a base de dados com MySQL e Express.js para rotas.
 
 ## Tecnologias Utilizadas
 * **Node.js**
@@ -15,6 +15,10 @@ Este projeto é uma aplicação back-end desenvolvida em TypeScript, utilizando 
   <img src="https://github.com/user-attachments/assets/31d55f2b-35b7-4bbb-958a-13e1cd84e183" width="36">
   <img src="https://github.com/user-attachments/assets/278578e9-217c-477d-bc4f-6e45ddb51a99" width="36" >
 
+## Desafios
+Um dos maiores desafios do projeto foi tipar os dados a serem recebidos e retornados na camada service. Mas não parou por ai,
+a criação das model no banco de dados levando em conta os relacionamentos das entidades também foi bastante desafiador.
+Outros desafios como criação de middlewares de erros e organização das estruturas de arquivos de uma forma mais limpa também estiveram presentes
 
 ## Requisitos
 
